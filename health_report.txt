@@ -1,3 +1,6 @@
 server1 is ... offline Disk: 80% - Warning
 server2 is ... online Disk: 20% - OK
 server3 is ... online Disk: 65% - OK
+server1 is ... offline Disk: 80% - Warning
+server2 is ... online Disk: 20% - OK
+server3 is ... online Disk: 65% - OK

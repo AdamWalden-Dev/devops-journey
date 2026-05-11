@@ -1,0 +1,8 @@
+Status is..online, Disk: 65% | Memory:80 | Location: us-west
+Status is..offline, Disk: 90% | Memory:20 | Location: us-west
+Status is..online, Disk: 30% | Memory:74 | Location: eu-west
+Status is..offline, Disk: 20% | Memory:10 | Location: eu-west
+Status is..online, Disk: 65% | Memory:80 | Location: us-west
+Status is..offline, Disk: 90% | Memory:20 | Location: us-west
+Status is..online, Disk: 30% | Memory:74 | Location: eu-west
+Status is..offline, Disk: 20% | Memory:10 | Location: eu-west
