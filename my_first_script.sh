@@ -11,7 +11,7 @@ elif [ $HOUR -lt 17 ]; then
 else
     echo "Good Evening!"
 fi
-python3 ~/IdeaProjects/devops_journey/day3.python
+python3 ~/IdeaProjects/devops_journey/day3.py
 git add .
 git commit -m "$(date) Testing Bash scripting/commands)"
 git push
