@@ -1,0 +1,4 @@
+server1,online,65,80,us-east
+server2,offline,90,20,us-west
+server3,online,30,74,eu-west
+server4,offline,20,10,us-east
