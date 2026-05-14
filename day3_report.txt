@@ -6,3 +6,11 @@ server1 | online | Disk: 65% | Memory: 80% | us-east
 server2 | offline | Disk: 90% | Memory: 20% | us-west
 server3 | online | Disk: 30% | Memory: 74% | eu-west
 server4 | offline | Disk: 20% | Memory: 10% | us-east
+server1 | online | Disk: 65% | Memory: 80% | us-east
+server2 | offline | Disk: 90% | Memory: 20% | us-west
+server3 | online | Disk: 30% | Memory: 74% | eu-west
+server4 | offline | Disk: 20% | Memory: 10% | us-east
+server1 | online | Disk: 65% | Memory: 80% | us-east
+server2 | offline | Disk: 90% | Memory: 20% | us-west
+server3 | online | Disk: 30% | Memory: 74% | eu-west
+server4 | offline | Disk: 20% | Memory: 10% | us-east
