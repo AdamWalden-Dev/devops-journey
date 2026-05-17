@@ -14,3 +14,7 @@
 2026-05-16 21:22:13 Name:server2 - Status:offline - Disk: 90|Disk is fine - Memory: 20|Memory is fine - Location: us-west
 2026-05-16 21:22:13 Name:server3 - Status:online - Disk: 30|Disk is fine - Memory: 74|Memory is fine - Location: eu-west
 2026-05-16 21:22:13 Name:server4 - Status:offline - Disk: 20|Disk is fine - Memory: 10|Memory is fine - Location: us-east
+2026-05-16 21:32:21 Name:server1 - Status:online - Disk: 65|Disk is Fine - Memory: 80|Memory is Fine- Location: us-east 60|Too High
+2026-05-16 21:32:21 Name:server2 - Status:offline - Disk: 90|Disk is Fine - Memory: 20|Memory is Fine- Location: us-west 30|CPU is Fine
+2026-05-16 21:32:21 Name:server3 - Status:online - Disk: 30|Disk is Fine - Memory: 74|Memory is Fine- Location: eu-west 23|CPU is Fine
+2026-05-16 21:32:21 Name:server4 - Status:offline - Disk: 20|Disk is Fine - Memory: 10|Memory is Fine- Location: us-east 90|Too High
