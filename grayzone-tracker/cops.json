@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Alpha Station",
+        "type": "Major",
+        "region": "North",
+        "loot_crates": [
+            {"location_note": "Back of main building", "tier": "High"},
+            {"location_note": "Guard tower", "tier": "Medium"}
+        ]
+    },
+    {
+        "name": "Bravo Point",
+        "type": "Minor",
+        "region": "East",
+        "loot_crates": []
+    },
+    {
+        "name": "Delta Outpost",
+        "type": "Major",
+        "region": "South",
+        "loot_crates": [
+            {"location_note": "Basement storage", "tier": "High"}
+        ]
+    }
+]
