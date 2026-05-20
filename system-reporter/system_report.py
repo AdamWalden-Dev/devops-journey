@@ -27,6 +27,7 @@ def system_report(timestamp, systeminfo):
             f.write(f"{timestamp}\n CPU: {systeminfo['cpu']}%\n Memory: {systeminfo['memory']}%\n Disk: {systeminfo['disk']}")
     except Exception as e:
         print(f"Unknown ERROR: {e}")
+        sys.exit(1)
 
 report = get_system_info()
 time = get_timestamp()
