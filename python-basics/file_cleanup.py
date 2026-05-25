@@ -26,10 +26,31 @@ def archive_file(filepath, filename):
         shutil.move(filepath, ARCHIVE_FOLDER)
         print(f"Archived: {filename}")
         with open("ArchiveLog.txt", "a") as f:
-            f.write(f"{datetime.now()} - Moved {filename} to {ARCHIVE_FOLDER}\n")
+            f.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} - Moved {filename} to {ARCHIVE_FOLDER}\n")
     except FileNotFoundError:
         print("File/Folder doesn't exist, check path again")
     except Exception as e:
         print(f"ERROR: {e}")
+
+def run_cleanup():
+    try:
+        check_folders()
+        for filename in os.listdir(SOURCE_FOLDER):
+            filepath = os.path.join(SOURCE_FOLDER, filename)
+            if not os.path.isfile(filepath):
+                continue
+            age = get_file_age(filepath)
+            if age > DAYS_OLD:
+                archive_file(filepath, filename)
+        print("Cleanup is now complete.")
+        sys.exit(0)
+    except FileNotFoundError:
+        print("Folder/File not found, check path again.")
+    except Exception as e:
+        print(f"ERROR: {e}")
+
+run_cleanup()
+
+
 
   
