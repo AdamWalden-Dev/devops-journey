@@ -2,3 +2,6 @@ logs/
 venv/
 system-reporter/logs/*
 !system-reporter/logs/.gitkeep
+python-basics/archive/
+python-basics/ArchiveLog.txt
+python-basics/files/
